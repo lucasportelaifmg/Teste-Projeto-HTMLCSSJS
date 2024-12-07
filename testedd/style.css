@@ -1,0 +1,27 @@
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+  background-color: #ddd;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu li:hover {
+  background-color: #3c43bd;
+}
+
+#messageBox {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  min-height: 50px;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+}
